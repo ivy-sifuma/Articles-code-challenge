@@ -14,7 +14,7 @@ another_magazine = Magazine.new('ESPN', 'Football')
 # puts magazine.category
 # p Magazine.all 
 article = Article.new(author, magazine, 'The Rise of MMA')
-another_article = Article.new(another_author, another_magazine, 'Why Boxers Still Make Money')
+another_article = Article.new(another_author, another_magazine, 'Why Women Soccer Legaue Isnt Famous')
 # puts article.title
 # p Article.all 
 # puts another_article.author

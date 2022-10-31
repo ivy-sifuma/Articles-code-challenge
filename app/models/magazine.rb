@@ -6,6 +6,7 @@ class Magazine
     @name = name
     @category = category
 
+   
   end
 
 
