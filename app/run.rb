@@ -35,7 +35,7 @@ magazine.add_contributors(author)
 magazine.add_contributors(another_author)
 # p magazine.contributors
 
-author.add_article(magazine, 'Where is the Goat?')
+author.add_article(magazine, 'Betting Leads?')
 # p Article.all 
 # p author.topic_areas
 
@@ -45,7 +45,7 @@ magazine.add_article(another_article)
 # p magazine.article_titles
 
 # finding articles by name
-# puts magazine.find_by_name("MMA")
+# puts magazine.find_by_name("Lakers")
 
 # Finding contributing authors
 # p magazine.contributing_authors
