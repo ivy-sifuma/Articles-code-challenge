@@ -4,16 +4,18 @@ require_relative './magazine.rb'
 
 # Author
 author = Author.new('Jesse')
-another_author = Author.new('John')
+another_author = Author.new('Ivy')
 # puts author.name
 
 # Magazine
-magazine = Magazine.new('CLOUD', 'Sports')
+magazine = Magazine.new('Cloud9', 'Sports')
 another_magazine = Magazine.new('ESPN', 'Football')
+another_magazine = Magazine.new('fox', 'business')
 # puts magazine.name
 # puts magazine.category
 # p Magazine.all 
-article = Article.new(author, magazine, 'The Rise of MMA')
+
+article = Article.new(author, magazine, 'The Rise of Lakers')
 another_article = Article.new(another_author, another_magazine, 'Why Women Soccer Legaue Isnt Famous')
 # puts article.title
 # p Article.all 
@@ -33,7 +35,7 @@ magazine.add_contributors(author)
 magazine.add_contributors(another_author)
 # p magazine.contributors
 
-author.add_article(magazine, 'Does that work?')
+author.add_article(magazine, 'Where is the Goat?')
 # p Article.all 
 # p author.topic_areas
 

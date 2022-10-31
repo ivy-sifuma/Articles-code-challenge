@@ -7,6 +7,17 @@ end
 
 ###  WRITE YOUR TEST CODE HERE ###
 
+transcription_tips=Author.new("Jesse")
+outlook=Magazine.new("cloud9","sports")
+forbes=Magazine.new("ESPN","football")
+nation=Magazine.new("fox","business")
+art1=Article.new(at1,outlook,"title_one")
+art2=Article.new(at1,outlook,"title_two")
+transcription_tips.add_article(outlook,"title_three")
+transcription_tips.add_article(outlook,"title_four")
+transcription_tips.add_article(outlook,"title_five")
+transcription_tips.add_article(fox,"title_six")
+transcription_tips.add_article(cloud9,"title_seven")
 
 
 
